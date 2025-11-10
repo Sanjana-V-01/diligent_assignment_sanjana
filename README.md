@@ -71,22 +71,11 @@ npm install && npm run dev
 ```
 3) Open the URL printed by Vite (e.g., http://localhost:5173).
 
-### Deploying to GitHub
-1) Initialize git in the repository root:
-```
-git init
-git add .
-git commit -m "Initial commit: frontend + backend"
-```
-2) Create a GitHub repo and push:
-```
-git branch -M main
-git remote add origin <your_repo_url>
-git push -u origin main
-```
+
 
 ### Notes
 - The frontend automatically uses `VITE_API_BASE_URL` if present; otherwise it calls `http://localhost:5000/api`.
 - The backend serves static data from `backend/data/products.json`. Replace with a real database as needed.
+
 
 
